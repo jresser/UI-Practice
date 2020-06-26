@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    background-color: #f2f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 840px;
+}
+
+.left-container {
+    width: 40%;
+    background-color: #eceff8;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.coins-header {
+    height: 33%;
+    background-image: linear-gradient(to right, #7788EA, #aca3f7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.coins-header button {
+    margin-top: -5px;
+    font-size: 10px;
+    font-family: inherit;
+    color: inherit;
+    background-color: #8284e9;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+.coins-body {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coin-opt {
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.coin-opt p {
+    margin-left: 35px;
+}
+
+.coin-opt button {
+    height: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    border: thin solid #7a90fd;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.05);
+    margin-right: 35px;
+    margin-left: auto;
+}
+
+.btn-light {
+    background-color: white;
+    color: #7a90fd;
+}
+
+.btn-dark {
+    background-color: #7a90fd;
+    color: white;
+}
+
+.right-container {
+    margin-left: 20px;
+}
+
+.member-container {
+    height: 50%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color: #eceff8;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.member-info {
+    margin-top: 20px;
+}
+
+.member-info p {
+    width: 70%;
+}
+
+span.new {
+    color: white;
+    background-color: #FA9E60;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 2px;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+.member-container button {
+    font-family: inherit;
+    font-size: inherit;
+    height: 30px;
+    width: 110px;
+    background-color: #7a90fd;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.05);
+    margin-top: 35px;
+}
+
+.buy-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    background-color: #eceff8;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+
+.buy-header {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.cost {
+    margin-left: auto;
+}
+
+.buy-container p {
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.buy-container button {
+    font-family: inherit;
+    font-size: inherit;
+    height: 45px;
+    background-color: #7a90fd;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.05);
+}

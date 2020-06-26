@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3D1E0;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.container {
+    color: #34384D;
+    background-color: #ffffff;
+    width: 940px;
+    border-radius: 10px;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-left {
+    float: left;
+    display: flex;
+    margin-left: 10px;
+}
+
+.ban-opt {
+    margin: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.banner-right {
+    float: right;
+    margin-right: 25px;
+    margin-left: auto;
+}
+
+.banner-right button {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 20px;
+    outline: none;
+    border: thin solid #83859B;
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+}
+
+.login {
+    color: #34384D;
+    background-color: #ffffff;
+    width: 70px;
+}
+
+.get-started {
+    color: #ffffff;
+    background-color: #34384D;
+    width: 110px;
+}
+
+hr {
+    background-color: #D3D1E0;
+}
+
+.banner-2 {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.ban2-opt {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.fa-search {
+    margin-right: 30px;
+    margin-left: auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content-body {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: -10px;
+    width: 100%;
+}
+
+.content-body h1 {
+    font-size: 35px;
+}
+
+.content-body h2 {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content-body h3 {
+    font-size: 18px;
+}
+
+.main-article {
+    width: 60%;
+}
+
+.main-article p {
+    width: 75%;
+}
+
+#main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.author {
+    align-items: center;
+    display: flex;
+}
+
+.author p {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-author {
+    margin-top: 20px;
+}
+
+.article-list {
+    margin-right: 25px;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+.sub-article {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sub-article h2 {
+    font-size: 20px;
+}
+
+.art-img {
+    width: 115px;
+    height: 115px;
+}
+
+.article-content {
+    margin-left: 15px;
+    margin-top: -15px;
+}
