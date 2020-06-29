@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAEBEB;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #132845;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 768px;
+    background-image: url("water.jpg");
+    display: flex;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.left {
+    width: 60%;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+hr {
+    border: none;
+    border-bottom: thin solid #8E919D; 
+}
+
+.log-in {
+    width: 75%;
+}
+
+input {
+    width: 100%;
+    border: thin solid #8E919D;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #132845;
+}
+
+textarea:focus, input:focus{
+    outline-color: #8E919D;
+}
+
+::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #8E919D;
+}
+
+.forgot-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.forgot-row a {
+    text-decoration: none;
+    color: #308CA2;
+}
+
+.forgot-row button {
+    font-family: inherit;
+    font-size: 12px;
+    margin-left: auto;
+    color: white;
+    background-color: #2b7c8c;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.2);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-row {
+    display: flex;
+    justify-content: space-between;   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social-row button {
+    font-family: inherit;
+    font-size: 12px;
+    color: #132845;
+    background-color: white;
+    border: thin solid #8E919D;
+    outline: none;
+    border-radius: 3px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.social-row img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+small {
+    height: 10px;
+    color: #8E919D;
+}
+
+.sign-up {
+    font-size: 10px;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: #308CA2;
+}
+
+button {
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    width: 40%;
+}
+
+.close {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: auto;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+}
